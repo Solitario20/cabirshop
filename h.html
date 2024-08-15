@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <style>
+        html,body{
+            margin: 0;
+            scroll-behavior: smooth;
+        }
+        nav{
+            background-color:darkcyan;
+            position: sticky;
+            top: 0;
+        }
+        nav a{
+            line-height: 50px;
+            color: white;
+            text-decoration: none;
+            padding: 0 15px;
+            font-size: 27px;
+        }
+        section{
+            height: calc(100vh - 50px);
+            scroll-margin-top:50px;
+        }
+        #home{
+            background-color: darkkhaki;
+            font-size: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #galery{
+            background-color: DarkOrchid;
+            color: white;
+            font-size: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #about{
+            background-color: Chartreuse;
+            font-size: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #contact{
+            background-color: red;
+            font-size: 70px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#galery">galery</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+    </nav>
+    <section id="home">
+        Home Page
+    </section>
+    <section id="galery">
+        Galery Studion
+    </section>
+    <section id="about">
+        About Page
+    </section>
+    <section id="contact">
+        Contract Page
+    </section>
+</body>
